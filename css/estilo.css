@@ -4,8 +4,9 @@
   --bg: #F4F4F4;
   --gray0: #E7E7E7;
   --gray1: #B1B1B1;
-  --primary: #504FAD;
-  --secondary: #F3CD03;
+  --purple: #272C6F;
+  --yellow: #F3CD03;
+  --blue: #5155B8;
 }
 
 * {
@@ -54,9 +55,46 @@ img {
 }
 
 .main span {
-  color: var(--primary);
+  color: var(--blue);
 }
 
 .img-logo {
   padding: 20px 0;
+}
+
+form label {
+  display: block;
+  font-size: 1rem;
+  color: var(--blue);
+  font-weight: 900;
+}
+
+form input {
+  font-family: 'Poppins';
+  font-size: 1rem;
+  padding: 10px;
+  width: 100%;
+  margin: 4px 0 12px 0;
+  border: 1px solid var(--gray0);
+  border-radius: 5px;
+}
+
+input:placeholder-shown {
+  color: var(--gray1);
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: 'Poppins';
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  background: var(--purple);
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+
 }
