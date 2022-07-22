@@ -31,7 +31,6 @@ img {
 
 .main {
   width: 450px;
-  height: 500px;
   background: #fff;
   border-radius: 5px;
   border: 1px solid var(--gray0);
@@ -64,7 +63,7 @@ img {
 
 form label {
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--blue);
   font-weight: 900;
 }
@@ -72,16 +71,17 @@ form label {
 form input {
   font-family: 'Poppins';
   font-size: 1rem;
-  padding: 10px;
+  padding: 12px;
   width: 100%;
   margin: 4px 0 12px 0;
-  border: 1px solid var(--gray0);
+  border: 1px solid var(--gray1);
   border-radius: 5px;
 }
 
 input:placeholder-shown {
   color: var(--gray1);
   text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .btn {
@@ -92,9 +92,35 @@ input:placeholder-shown {
   background: var(--purple);
   text-transform: uppercase;
   font-weight: 900;
-  padding: 10px;
+  padding: 12px;
   width: 100%;
   border: none;
   border-radius: 5px;
 
+}
+
+.img-pokemon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+
+}
+
+.img-pokemon img {
+  border: 1px solid var(--gray1);
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+  background: #fff;
+}
+
+#content {
+  background: var(--yellow);
+  font-family: monospace;
+  padding: 12px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
 }
