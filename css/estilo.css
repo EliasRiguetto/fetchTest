@@ -23,6 +23,11 @@ body {
   font-family: 'Poppins';
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .main {
   width: 450px;
   height: 500px;
@@ -50,4 +55,8 @@ body {
 
 .main span {
   color: var(--primary);
+}
+
+.img-logo {
+  padding: 20px 0;
 }
