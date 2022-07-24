@@ -112,6 +112,7 @@ input:placeholder-shown {
   border-radius: 50%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
   background: #fff;
+  width: 90px;
 }
 
 #content {
